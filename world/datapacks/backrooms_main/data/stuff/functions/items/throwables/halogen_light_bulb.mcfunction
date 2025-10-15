@@ -1,0 +1,6 @@
+execute as @e[type=snowball,tag=!halogen_bulb,nbt={Item:{id:"minecraft:snowball",tag:{halogen_bulb:1b}}}] run tag @s add halogen_bulb
+execute as @e[type=snowball,tag=halogen_bulb] at @s run summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["halogen_cloud"]}
+execute as @e[type=minecraft:area_effect_cloud,tag=halogen_cloud] at @s unless entity @e[type=snowball,tag=halogen_bulb,distance=..1.8] run particle minecraft:item glass ~ ~ ~ 0 0.15 0 0.25 100 force
+execute as @e[type=minecraft:area_effect_cloud,tag=halogen_cloud] at @s unless entity @e[type=snowball,tag=halogen_bulb,distance=..1.8] run playsound minecraft:block.glass.break master @a ~ ~ ~ 1.15 0.85
+execute as @e[type=minecraft:area_effect_cloud,tag=halogen_cloud] at @s unless entity @e[type=snowball,tag=halogen_bulb,distance=..1.8] at @s run effect give @e[type=!player,type=!marker,type=!armor_stand,limit=3,distance=..3.5] minecraft:instant_health 1 0 true
+#execute as @e[type=minecraft:area_effect_cloud,tag=halogen_cloud] at @s unless entity @e[type=snowball,tag=halogen_bulb,distance=..1.8] at @s run effect give @e[tag=nightmare_entity] minecraft:instant_health 1 2 true

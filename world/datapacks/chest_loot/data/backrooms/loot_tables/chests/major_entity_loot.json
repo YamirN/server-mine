@@ -1,0 +1,575 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Sharp Cobble Sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Well, it may be brittle, but\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"surely it can help protect you\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"9 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:91,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;-1373607315,-1734850292,-1956881563,-455908812],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2,Operation:0,UUID:[I;1096585653,-1000258755,-1127063334,-2057195608],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Swift Dagger\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"This thing can swing faster than\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"most weapons\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"5.5 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"+10% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:190,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5.5,Operation:0,UUID:[I;558078380,346049807,-1323472044,-436415244],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.5,Operation:0,UUID:[I;2059209033,1410551771,-2019185064,-2114334302],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1674123218,2022785469,-1492915628,-112089084],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Shoddy Bow\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Looks like it is barely holding\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"together. Awesome!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"+5% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:334,Enchantments:[{id:\"minecraft:power\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-1019115286,1205355117,-1348543431,1965555393],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Squishy Scythe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"If you like your personal space,\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"then this weapon will be great\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"for you!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:NaNs}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-684750995,1577402779,-1570915793,-293755645],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.2,Operation:0,UUID:[I;557231392,-130265948,-1447815431,-930307687],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hot Pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"Don\\'t burn yourself!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:1971,CustomModelData:1,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-330886543,-1021687725,-1865442417,883204148],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-2071299159,1635599714,-2116079797,-682498270],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Heavy Crossbow\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Heavy mechanical crossbow that\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"can fire an arrow through multiple\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"targets!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-20% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:286,CustomModelData:1,Enchantments:[{id:\"minecraft:piercing\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;2008538346,-604946373,-1754610115,-590589645],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Magic Crossbow\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Somehow, this thing can shoot\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"more than 1 arrow at a time!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It also slightly smells of\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"grilled onions...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"+10% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:276,CustomModelData:1,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:1,UUID:[I;1645641985,994070487,-1913560232,1289517486],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hefty Axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Packs a punch, but has a\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"slow attack speed\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"15 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:101,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;225590098,1184252425,-1128549463,896913785],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3.2,Operation:0,UUID:[I;1000540300,-390643255,-1176145331,-2085913549],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Entity Slayer\",\"italic\":false}',Lore:['{\"text\":\"A good weapon to have in a place\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"like this. Use it wisely...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"80 Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-40% Speed\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"+4 Armor\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:2026,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-46157580,-1060158345,-1146953051,91561379],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-1681999654,1050627753,-2110526200,-642062920],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:1,UUID:[I;-1715029252,-1872411396,-1499327291,314909598],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;727487773,-553630157,-1848095858,-1573079330],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Balanced Saber\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"As all sabers should be...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"6.5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:56,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6.5,Operation:0,UUID:[I;-254156865,625426509,-1362949927,-602300583],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Steel Broadsword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Good for dealing with a lot\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"of Entities at once... You\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"probably shouldn\\'t try to do\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"that...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"8 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"-10% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:210,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:sweeping\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;119402023,-1503573541,-1375228542,-1110424064],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;2103765354,1813135394,-1522205365,1398933198],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.3,Operation:0,UUID:[I;-1409105323,343295634,-1206223811,-2071431277],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Rusty Trident\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"You can\\'t go wrong with a Trident\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"7 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"-20% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:200,Enchantments:[{id:\"minecraft:loyalty\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;994877470,-229749625,-1313614706,-366343482],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;-1687821750,-1301132019,-1114386572,200399036],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.2,Operation:0,UUID:[I;152814276,-796964118,-1829163572,1260783487],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Charge Shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"The longer you hold this\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"weapon in your hand, the faster\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"you can move. Up to Speed IV!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:1511,CustomModelData:4,chargeshovel:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;1121617029,35995732,-1085123616,-384541030],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.6,Operation:0,UUID:[I;-712512385,1186810524,-1603562846,-1382858378],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 8,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Health Potion \",\"italic\":false},{\"text\":\"+4❤\",\"color\":\"red\",\"italic\":false}]',Lore:['{}']},CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:1}],CustomPotionColor:16711680}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Backrooms Credit\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"+1 Credit\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Can be used to unlock things\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"at the Credit Marketplace.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When picked up automatically\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"gets added to your credit\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"total.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:95,credit:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Classic Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"I hope it protects my organs!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+7 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:120,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-197672043,878464166,-1999213532,-1759658919],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Thick Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"I hope it protects my [REDACTED]\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+7 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-10% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:110,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-1116153123,-1794489562,-1143419826,2097985361],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;228647665,1391214929,-1880435712,-1252288133],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cheeky Helmet\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"It is smart to bring a helmet\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+5 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+5% Attack Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:65,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;1817471377,-387300033,-2093908272,-259763544],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.05,Operation:1,UUID:[I;1972758394,1196770617,-1090102776,-803751023],Slot:\"head\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Swift Treads\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Keep your feet warm with\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"these stylish boots!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+4 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+5% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:100,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;236999075,525354524,-1625638606,2115250331],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:.05,Operation:1,UUID:[I;433655963,-2097131714,-1356102738,1369881719],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Red Cap\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"This hat has a distinctly\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"white \\'M\\' on it...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+4 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+5 Attack Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}'],color:12189696},HideFlags:127,Damage:15,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-1207531480,1432899397,-1312625834,-2056177650],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-368943356,-1183890134,-1477129427,2115744558],Slot:\"head\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Spiked Pants\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Thankfully the spikes are\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"only on the outside of them\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Thorns IV\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+4 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}'],color:1485590},HideFlags:127,Damage:30,Enchantments:[{id:\"minecraft:thorns\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;1509432410,294208871,-1329262318,-1027171913],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Spiked Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Now you can finally look\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"like a cactus!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Thorns III\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+6 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}'],color:1688601},HideFlags:127,Damage:30,Enchantments:[{id:\"minecraft:thorns\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-1773460594,555174204,-1707514600,-335727098],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Power Sneakers\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"These smell like hedgehog!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+3 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+15% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}'],color:12845056},HideFlags:127,Damage:30,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;1382983429,119097282,-1539186983,802898864],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:.15,Operation:1,UUID:[I;-1964585909,-1500820894,-1483261157,1731613520],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Warrior Breastplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Everything must die\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+2 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+7 Attack Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:453,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;1719038462,898124857,-1867653730,1682651062],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-897968628,31278681,-1589873011,1078951540],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Healthy Helmet\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Infused with Vitamin D\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+4 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+5 Hearts\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:337,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-1115322725,879576572,-1833730300,34608040],Slot:\"head\"},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:8,Operation:0,UUID:[I;-296571656,-1888268920,-1445126116,-1929067959],Slot:\"head\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lead Filled Boots\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"It\\'s like walking in mud!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Knockback Resistance\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+6 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-25% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:401,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-2103116913,96094812,-2133315466,1854787177],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:1,Operation:0,UUID:[I;-1299109446,700596499,-1987904843,-1077696926],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.25,Operation:1,UUID:[I;1227222612,389172033,-2053989192,1267468695],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Mega Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"It is heavier than it looks\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+12 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-35% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:467,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:12,Operation:0,UUID:[I;-526150638,1821460387,-1890016082,-1758199988],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.35,Operation:1,UUID:[I;1194890689,-1453110510,-1976402942,983360664],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hyper Resistant Pants\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Don\\'t ask how they work, just\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"wear them and enjoy them!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Blast Protection II\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Projectile Protection II\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+5 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:425,Enchantments:[{id:\"minecraft:blast_protection\",lvl:2s},{id:\"minecraft:projectile_protection\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;-1090659628,-1293791795,-1651845375,1300370727],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cursed Helmet\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"The fog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The fog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The fog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Curse of Binding\",\"color\":\"red\",\"italic\":false}','{\"text\":\"+8 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-2 Attack Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:100,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:-1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-698770046,-1155969113,-1798270602,-1867484165],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-2,Operation:0,UUID:[I;-999772865,-948092481,-1868156849,-11574726],Slot:\"head\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cursed Chestplate\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"The dog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The dog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The dog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Curse of Binding\",\"color\":\"red\",\"italic\":false}','{\"text\":\"+14 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-4 Attack Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:155,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:-1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:14,Operation:0,UUID:[I;1105709633,-1093648046,-1650697141,45394820],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-4,Operation:0,UUID:[I;-1716524586,242435410,-1073885702,-1873625381],Slot:\"chest\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cursed Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"The frog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The frog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The frog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Curse of Binding\",\"color\":\"red\",\"italic\":false}','{\"text\":\"+11 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-3 Attack Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:150,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:-1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:11,Operation:0,UUID:[I;-1332373876,-1361032378,-1343147934,352159682],Slot:\"legs\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-3,Operation:0,UUID:[I;-1354030453,-229880284,-1715363444,-185239224],Slot:\"legs\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Cursed Boots\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"The smog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The smog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"The smog is coming\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Curse of Binding\",\"color\":\"red\",\"italic\":false}','{\"text\":\"+7 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-2 Attack Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:130,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:-1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-7889214,1040729607,-2109570521,366116098],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-2,Operation:0,UUID:[I;2003203802,-483176605,-1230814544,-955543774],Slot:\"feet\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Fragile Leggings\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Made out of feelings\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+7 Armor\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"+10% Attack Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:95,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-1471890414,455623610,-1762817440,-865793435],Slot:\"legs\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.1,Operation:1,UUID:[I;-1459252787,-1181725495,-1487323710,-1788387447],Slot:\"legs\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

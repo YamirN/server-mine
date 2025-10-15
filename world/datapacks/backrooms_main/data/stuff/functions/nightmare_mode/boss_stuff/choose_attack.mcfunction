@@ -1,0 +1,1 @@
+execute as @e[name=Nightmare,scores={generic_timer3=200}] at @e[type=armor_stand,name=nightmare_random,limit=1,sort=random] run setblock ~-1 ~ ~ redstone_block

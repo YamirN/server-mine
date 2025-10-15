@@ -1,0 +1,4 @@
+setblock ~ ~ ~1 air
+particle minecraft:dust 0 0 1 1.75 ~ ~1 ~1 0.25 0.25 0.25 0 20
+summon zombie ~2 ~1 ~9 {Silent:0b,Health:220f,Tags:["small_entity"],CustomName:'{"text":"Yellow Concrete Mimic"}',ArmorItems:[{id:"minecraft:golden_boots",Count:1b},{id:"minecraft:golden_leggings",Count:1b},{id:"minecraft:golden_chestplate",Count:1b},{id:"minecraft:yellow_concrete",Count:1b}],ArmorDropChances:[-327.000F,-327.000F,-327.000F,2.000F],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:199999980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:320},{Name:generic.follow_range,Base:30},{Name:generic.knockback_resistance,Base:0.25},{Name:generic.movement_speed,Base:0.35},{Name:generic.attack_damage,Base:5},{Name:generic.armor,Base:4}],DeathLootTable:"backrooms:chests/major_entity_loot"}
+execute at @a run playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 1 2

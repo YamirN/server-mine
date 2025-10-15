@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "ee1819a9-d50d-4c8c-8337-bee1a3443055",
+    "name": "MinestijnXD",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "06d18089-eaca-41e6-a24c-4f578f81d658",
+    "name": "JapioooGames",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

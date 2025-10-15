@@ -1,0 +1,7 @@
+{
+  "values":[
+	"stuff:speed_generation/logic",
+  "light:init",
+  "decoration:init"
+  ]
+}

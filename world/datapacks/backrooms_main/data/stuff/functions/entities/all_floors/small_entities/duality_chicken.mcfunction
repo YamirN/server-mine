@@ -1,0 +1,1 @@
+execute as @e[type=chicken,tag=834B,nbt={HurtTime:1s}] at @s run summon creeper ~ ~ ~ {CustomName:'{"text":"Entity 834"}',powered:1b,ExplosionRadius:2.5b,Fuse:1,ignited:1b}

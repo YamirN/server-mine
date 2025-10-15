@@ -1,0 +1,1 @@
+summon armor_stand 142.5 19 89.5 {NoGravity:1b,Tags:["bullet"],CustomName:'{"text":"nightmare_random"}'}

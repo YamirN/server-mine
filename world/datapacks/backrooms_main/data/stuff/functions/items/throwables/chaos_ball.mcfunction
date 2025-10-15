@@ -1,0 +1,10 @@
+execute as @e[type=snowball,tag=!chaos_ball,nbt={Item:{id:"minecraft:snowball",tag:{chaos_ball:1b}}}] run tag @s add chaos_ball
+execute as @e[type=snowball,tag=chaos_ball] at @s run summon area_effect_cloud ~ ~ ~ {Duration:2,Tags:["chaos_cloud"]}
+execute as @e[type=minecraft:area_effect_cloud,tag=chaos_cloud] at @s unless entity @e[type=snowball,tag=chaos_ball,distance=..2] run particle minecraft:reverse_portal ~ ~ ~ 0.25 0.25 0.25 4 400 force
+execute as @e[type=minecraft:area_effect_cloud,tag=chaos_cloud] at @s unless entity @e[type=snowball,tag=chaos_ball,distance=..2] run playsound minecraft:block.respawn_anchor.deplete master @a ~ ~ ~ 2 0.5
+execute as @e[type=minecraft:area_effect_cloud,tag=chaos_cloud] at @s unless entity @e[type=snowball,tag=chaos_ball,distance=..2] run playsound minecraft:entity.firework_rocket.blast master @a ~ ~ ~ 2.5 0
+execute as @e[type=minecraft:area_effect_cloud,tag=chaos_cloud] at @s unless entity @e[type=snowball,tag=chaos_ball,distance=..2] at @s run effect give @e[type=!player,type=!marker,type=!item,type=!armor_stand,limit=5,distance=..4.5] minecraft:instant_health 1 4 true
+execute as @e[type=minecraft:area_effect_cloud,tag=chaos_cloud] at @s unless entity @e[type=snowball,tag=chaos_ball,distance=..2] run summon area_effect_cloud ~ ~0.05 ~ {Particle:"witch",ReapplicationDelay:20,Radius:0.75f,RadiusPerTick:0.075f,RadiusOnUse:-0.15f,Duration:120,DurationOnUse:-0.15f,WaitTime:1,Effects:[{Id:2b,Amplifier:3b,Duration:200,ShowParticles:0b},{Id:20b,Amplifier:4b,Duration:200,ShowParticles:0b}],CustomName:'{"text":"chaos_puddle"}'}
+#
+execute as @e[type=snowball,tag=chaos_ball] at @s run particle minecraft:witch ~ ~0.15 ~ 0 0 0 1 2 force
+execute as @e[type=snowball,tag=chaos_ball] at @s run particle minecraft:dripping_obsidian_tear ~ ~0.05 ~ 0 0 0 0 1 force

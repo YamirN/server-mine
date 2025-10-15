@@ -1,0 +1,429 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Halogen Light Bulb\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Seems like it came from the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"ceiling... Nice\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"6 Area Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},CustomModelData:3,halogen_bulb:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 15,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Health Potion\",\"color\":\"white\",\"italic\":false},{\"text\":\" +2❤\",\"color\":\"red\"}]',Lore:['{}']},CustomPotionEffects:[{Id:6b,Amplifier:0b,Duration:1}],CustomPotionColor:16711680}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:spruce_button",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CanPlaceOn:[\"minecraft:sandstone\",\"minecraft:brown_terracotta\",\"minecraft:polished_andesite\",\"minecraft:moss_block\",\"minecraft:blackstone\",\"minecraft:nether_wart_block\",\"minecraft:red_sandstone\",\"minecraft:waxed_oxidized_cut_copper\",\"minecraft:magenta_terracotta\",\"minecraft:red_wool\",\"minecraft:quartz_bricks\",\"minecraft:black_wool\",\"minecraft:yellow_wool\"],CanDestroy:[\"minecraft:spruce_button\"],display:{Name:'{\"text\":\"Breadcrumb Button\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Great for keeping track of\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"where you\\'ve been\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Can be placed on the floor\",\"color\":\"yellow\",\"italic\":false}']},HideFlags:16}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Invisibility Potion\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"The less armor you wear, the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"harder it is for Entities to\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"detect you. Stay sneaky!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Invisibility - 20s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Enchantments:[{}],CustomPotionEffects:[{Id:14b,Amplifier:0b,Duration:400}],CustomPotionColor:16777215}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Stun Grenade\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Good for stopping Entities\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"dead in their tracks. Stun\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"lasts for 7 seconds.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:127,CustomPotionEffects:[{Id:2b,Amplifier:10b,Duration:135,ShowParticles:1b}],CustomPotionColor:16764229}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Almond Water\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Finally something to quench\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"your everlasting thirst...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"4 Hunger Points\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Speed I - 30s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:600,ShowParticles:0b},{Id:23b,Amplifier:3b,Duration:1,ShowParticles:0b}],CustomPotionColor:35071}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Extra Sweet Almond Water\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"A rare luxury. It smells\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"absolutely delightful.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"8 Hunger Points\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Speed I - 1m\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Strength I - 30s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:1200,ShowParticles:0b},{Id:5b,Amplifier:0b,Duration:600,ShowParticles:0b},{Id:23b,Amplifier:7b,Duration:1,ShowParticles:0b}],CustomPotionColor:5421823}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Memory Fluid\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"A very illegal and highly\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"sought after narcotic.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Enemy Glow - 10s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:13b,Amplifier:0b,Duration:1}],CustomPotionColor:65467}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"1000 Grains of Black Sand\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"An extremely rare substance\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"found within The Backrooms. It\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"has significact healing\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"properties but makes the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"user weak...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Regeneration III - 2m\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Weakness III - 4m\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Slowness I - 2m\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:2b,Amplifier:0b,Duration:4800,ShowParticles:0b},{Id:10b,Amplifier:2b,Duration:2400,ShowParticles:0b},{Id:18b,Amplifier:2b,Duration:4800,ShowParticles:0b}],CustomPotionColor:2500134}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Soda Bomb\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Leaves a puddle of soda on the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"ground that slows down anything\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"that walks through it.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Slowness III - 5s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:2b,Amplifier:2b,Duration:100,ShowParticles:0b}],CustomPotionColor:7552256}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Chaotic Tonic\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Hey, that rhymed!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Teleportation I - 1s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:2b,Amplifier:1b,Duration:40,ShowParticles:0b},{Id:9b,Amplifier:0b,Duration:40,ShowParticles:0b},{Id:13b,Amplifier:1b,Duration:1,ShowParticles:0b},{Id:19b,Amplifier:1b,Duration:32,ShowParticles:0b}],CustomPotionColor:10967551}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Warp Elixir\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"It sort of smells like grape\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"cough syrup... Teleports you\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"to a random player.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Player Warp I - 1s\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Instant Damage I\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:2b,Amplifier:1b,Duration:240,ShowParticles:0b},{Id:9b,Amplifier:0b,Duration:200,ShowParticles:0b},{Id:13b,Amplifier:2b,Duration:1,ShowParticles:0b}],CustomPotionColor:16750848}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:cooked_cod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 10
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:rabbit_stew",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Backrooms Credit\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"+1 Credit\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Can be used to unlock things\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"at the Credit Marketplace.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When picked up automatically\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"gets added to your credit\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"total.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:95,credit:1b,Enchantments:[{}]}"
+            }
+          ]
+        },
+        {
+          "type": "empty",
+          "weight": 49
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+fill ~-2 ~1 ~-8 ~-4 ~4 ~-9 air destroy
+execute at @a[distance=..24] run playsound minecraft:entity.ravager.stunned master @a ~ ~ ~ 2 0
+execute at @a run particle minecraft:dust 0.75 0 0 2 ~ ~1 ~ 1 1 1 0 100
+execute at @a[gamemode=adventure,sort=random,limit=1] at @e[type=marker,name=remover,limit=1,sort=random,distance=20..] run summon zombie ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,CanPickUpLoot:0b,Tags:["large_entity"],CustomName:'{"text":"tear_curse"}',ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-1951956897,1883393792,-1819041456,-1392844099],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJmNjgyNjg0YjQ0Y2Q2ZTViMjJiYmFiMGUyYTI4NTZhNDQzMDk4OThiZTMxYmNlMDA2MWZkY2EwNDRkZjM5MiJ9fX0="}]}}}}],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:199999980,ShowParticles:0b}]}

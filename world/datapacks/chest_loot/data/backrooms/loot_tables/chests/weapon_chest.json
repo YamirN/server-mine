@@ -1,0 +1,335 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Sharp Cobble Sword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Well, it may be brittle, but\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"surely it can help protect you\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"9 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:91,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:9,Operation:0,UUID:[I;735439366,555700036,-1511004105,-197169213],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2,Operation:0,UUID:[I;1498224498,308955378,-1361483413,-1570833585],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Swift Dagger\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"This thing can swing faster than\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"most weapons\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"5.5 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"+10% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:190,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5.5,Operation:0,UUID:[I;1044491036,-1669054028,-2046166774,-262546469],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.5,Operation:0,UUID:[I;1967195180,1887129015,-1929390022,-187909733],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;-512972992,-797687332,-1779198613,-297289820],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Shoddy Bow\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Looks like it is barely holding\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"together. Awesome!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"+5% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:334,Enchantments:[{id:\"minecraft:power\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;1917379033,223562873,-1930725967,554607624],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Squishy Scythe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"If you like your personal space,\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"then this weapon will be great\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"for you!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Enchantments:[{id:\"minecraft:knockback\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1234521416,-2114108266,-1377630602,880553501],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.2,Operation:0,UUID:[I;679737059,364071141,-1431509125,-631873338],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:netherite_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hot Pickaxe\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"Don\\'t burn yourself!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:1971,CustomModelData:1,Enchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-416830899,1919893681,-1706015790,1284680030],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-1825676370,1624394114,-1824045507,1739596755],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Heavy Crossbow\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Heavy mechanical crossbow that\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"can fire an arrow through multiple\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"targets!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"-20% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:425,CustomModelData:1,Enchantments:[{id:\"minecraft:piercing\",lvl:3s},{id:\"minecraft:quick_charge\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;168890868,168182549,-2099079236,-1525342943],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Magic Crossbow\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Somehow, this thing can shoot\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"more than 1 arrow at a time!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"It also slightly smells of\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"grilled onions...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"+10% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:415,CustomModelData:1,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:1,UUID:[I;-1896039127,-710197243,-1577697494,-62026313],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Hefty Axe\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Packs a punch, but has a\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"slow attack speed\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"15 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:101,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;-1648856568,1424048387,-2113442159,420141850],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3.2,Operation:0,UUID:[I;-87635013,426593863,-1121427069,-213419163],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:netherite_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Entity Slayer\",\"italic\":false}',Lore:['{\"text\":\"A good weapon to have in a place\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"like this. Use it wisely...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"80 Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"-40% Speed\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"+4 Armor\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:2026,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:80,Operation:0,UUID:[I;-1522009318,-1959639647,-1542931602,136528197],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;1608085559,-1083421415,-1369005866,-1944431477],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.4,Operation:1,UUID:[I;2089977498,1468613313,-2028291154,699368212],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.8,Operation:0,UUID:[I;-1664318518,-138458349,-1107909109,-95424098],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Balanced Saber\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"As all sabers should be...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"6.5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:56,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6.5,Operation:0,UUID:[I;-730549339,-1882831544,-1356886175,856819401],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Steel Broadsword\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Good for dealing with a lot\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"of Entities at once... You\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"probably shouldn\\'t try to do\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"that...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"8 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"-10% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:210,Enchantments:[{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:sweeping\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-525461766,1281115064,-1411703632,-1380985220],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.1,Operation:1,UUID:[I;328058305,1029394173,-1603828187,-1586441188],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.3,Operation:0,UUID:[I;-1687384298,775832462,-1315997693,-976177545],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Rusty Trident\",\"color\":\"white\",\"italic\":false}',Lore:['[{\"text\":\"You can\\'t go wrong with a Trident\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"7 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"-20% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,Damage:200,Enchantments:[{id:\"minecraft:loyalty\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;542091508,381177219,-1826066581,835369297],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;1674417425,882525874,-2013680389,1906571285],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.2,Operation:0,UUID:[I;1881351429,-857190722,-1421922200,1000107383],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Charge Shovel\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Rare. The longer you hold this\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"weapon in your hand, the faster\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"you can move. Up to Speed IV!\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"5 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,Damage:1511,CustomModelData:4,chargeshovel:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;1379115316,-242331757,-1691305081,32204393],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.6,Operation:0,UUID:[I;203847509,167135639,-1265717743,707054640],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Health Potion \",\"italic\":false},{\"text\":\"+4❤\",\"color\":\"red\",\"italic\":false}]',Lore:['{}']},CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:1}],CustomPotionColor:16711680}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cooked_porkchop",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 14,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Backrooms Credit\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"+1 Credit\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Can be used to unlock things\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"at the Credit Marketplace.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When picked up automatically\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"gets added to your credit\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"total.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:95,credit:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

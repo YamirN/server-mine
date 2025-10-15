@@ -1,0 +1,2 @@
+execute as @a[tag=in_backrooms,gamemode=adventure,sort=random,limit=2] at @s run summon marker ~ ~1 ~ {Tags:["fracture_marker","bullet"],CustomName:'{"text":"fracture"}'}
+scoreboard players set time fracture_timer 0

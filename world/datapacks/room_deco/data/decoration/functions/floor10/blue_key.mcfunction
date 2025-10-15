@@ -1,0 +1,2 @@
+execute if block ~2 ~1 ~2 minecraft:hopper{Items:[{id:"minecraft:tripwire_hook"}]} run setblock ~ ~1 ~ blue_concrete destroy
+execute positioned ~2 ~1 ~2 if block ~ ~ ~ minecraft:hopper{Items:[{id:"minecraft:tripwire_hook"}]} run data remove block ~ ~ ~ Items[{id:"minecraft:tripwire_hook"}]

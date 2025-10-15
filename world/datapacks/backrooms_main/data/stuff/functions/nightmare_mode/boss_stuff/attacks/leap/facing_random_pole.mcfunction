@@ -1,0 +1,2 @@
+execute as @e[name=Nightmare] at @s facing entity @e[tag=nightmare_pole] eyes run function stuff:nightmare_mode/boss_stuff/attacks/leap/apply_motion
+schedule function stuff:nightmare_mode/boss_stuff/attacks/leap/add_tag 3t

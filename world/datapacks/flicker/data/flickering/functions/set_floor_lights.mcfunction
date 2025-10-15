@@ -1,0 +1,13 @@
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 0..1 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=11] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 2 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=10] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 3 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=10] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 4 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=15] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 5 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=10] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 6 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=11] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 7 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=10] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 8 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=12] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 9 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=10] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 10 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=8] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 11 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=12] replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 12 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 air replace light
+execute as @e[type=marker,name=remover] at @s if score $number selected_floor matches 13 run fill ~-6 ~4 ~-6 ~6 ~4 ~6 light[level=10] replace light

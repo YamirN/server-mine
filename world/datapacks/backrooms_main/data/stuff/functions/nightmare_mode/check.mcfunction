@@ -1,0 +1,1 @@
+execute if entity @a[tag=nightmare_mode] if entity @e[name=Nightmare] run function stuff:nightmare_mode/logic

@@ -1,0 +1,1 @@
+execute if entity @e[tag=south] run function stuff:speed_generation/south/place_south

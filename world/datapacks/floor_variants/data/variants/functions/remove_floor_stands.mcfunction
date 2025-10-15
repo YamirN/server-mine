@@ -1,0 +1,1 @@
+kill @e[type=armor_stand,name="floor_stand"]

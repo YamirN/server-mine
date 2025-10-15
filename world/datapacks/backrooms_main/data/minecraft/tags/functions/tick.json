@@ -1,0 +1,10 @@
+{
+  "values":[
+	"stuff:entities/spawning_type_logic",
+  "stuff:entities/all_floors/logic",
+  "stuff:items/check",
+  "stuff:artifact_mode/logic",
+  "stuff:nightmare_mode/check",
+  "stuff:join_detect/loop"
+  ]
+}

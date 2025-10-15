@@ -1,0 +1,1 @@
+execute if entity @e[tag=4way] run function stuff:speed_generation/4way/place_4way

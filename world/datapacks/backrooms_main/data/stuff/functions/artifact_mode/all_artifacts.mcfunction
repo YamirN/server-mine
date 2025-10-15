@@ -1,0 +1,4 @@
+give @a[tag=!all_artifact_function] compass{display:{Name:'{"text":"Magic Compass","italic":false}',Lore:['{"text":"Points you towards the","color":"gray","italic":false}','{"text":"room you started in","color":"gray","italic":false}']},LodestoneDimension:"minecraft:overworld",LodestoneTracked:0b,LodestonePos:{X:8,Y:120,Z:8}} 1
+tellraw @a[tag=!all_artifact_function] ["",{"text":"Faint Whisper: ","color":"gray"},{"text":"That's it... You've gotten all the required Artifacts... Head back to the room you started in... A special compass was placed in your inventory...","italic":true,"color":"gray"}]
+execute as @a[tag=!all_artifact_function] at @s run playsound minecraft:entity.vex.ambient master @s ~ ~ ~ 1 0
+tag @a add all_artifact_function

@@ -1,0 +1,3 @@
+execute as @e[type=zombie,name="Entity 8008"] at @s if entity @a[gamemode=adventure,distance=..50] run scoreboard players add @s generic_timer 1
+execute as @e[type=zombie,name="Entity 8008",scores={generic_timer=415}] at @s run playsound minecraft:entity.cat.ambient master @a ~ ~ ~ 3 0.75
+execute as @e[type=zombie,name="Entity 8008",scores={generic_timer=415..}] run scoreboard players set @s generic_timer 0

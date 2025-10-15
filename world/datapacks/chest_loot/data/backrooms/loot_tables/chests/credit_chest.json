@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Backrooms Credit\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"+1 Credit\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Can be used to unlock things\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"at the Credit Marketplace.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When picked up automatically\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"gets added to your credit\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"total.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:95,credit:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Backrooms Credit\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\" \"}','{\"text\":\"+1 Credit\",\"color\":\"aqua\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Can be used to unlock things\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"at the Credit Marketplace.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"When picked up automatically\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"gets added to your credit\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"total.\",\"color\":\"gray\",\"italic\":false}']},HideFlags:95,credit:1b,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

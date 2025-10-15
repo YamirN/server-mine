@@ -1,0 +1,291 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Throwing Knife\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Out of all the weapons, here\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"you are with throwing knives...\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"12 Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:3,CustomModelData:2,knife:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 95,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Health Potion\",\"color\":\"white\",\"italic\":false},{\"text\":\" +4❤\",\"color\":\"red\"}]',Lore:['{}']},CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:1}],CustomPotionColor:16711680}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Magic Bullet\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"You aren\\'t a wizard, but now that\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"you\\'ve got your hands on this\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"you may as well be! Pierces all\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"targets and slows them\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"24 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"-20% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,CustomModelData:1,magicbullet:1b,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;2098377849,1320700510,-1542893351,-1634417043],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:cooked_cod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 10
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 21,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:end_crystal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Artifact\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"It radiates with horrible energy...\",\"color\":\"gray\",\"italic\":false}']},artifact:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 18,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Artifact Potion\",\"color\":\"dark_purple\",\"italic\":false}',Lore:['{\"text\":\"It smells absolutely magical!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"Makes Artifact chests glow\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"purple briefly.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"Speed II - 20 Seconds\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Resistance I - 20 Seconds\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Strength II - 20 Seconds\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\"Artifact Glow - 5 Seconds\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,CustomPotionEffects:[{Id:1b,Amplifier:1b,Duration:400},{Id:5b,Amplifier:1b,Duration:400},{Id:11b,Amplifier:0b,Duration:400},{Id:13b,Amplifier:3b,Duration:2,ShowParticles:0b}],CustomPotionColor:11156479}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{\"text\":\"Aren\\'t you lucky...\",\"color\":\"gray\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

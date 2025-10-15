@@ -1,0 +1,260 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Time Bomb\",\"italic\":false}',Lore:['{\"text\":\"Explosives are... Awesome...\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"Detonates 3.5 seconds after placing\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"54 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,CustomModelData:3,timebomb:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Magic Bullet\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"You aren\\'t a wizard, but now that\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"you\\'ve got your hands on this\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"you may as well be! Pierces all\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"targets and slows them\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','{\"text\":\"24 Damage\",\"color\":\"yellow\",\"italic\":false}','[{\"text\":\"-20% Speed\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,CustomModelData:1,magicbullet:1b,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.2,Operation:1,UUID:[I;-1195248953,-1141223644,-1698951220,-1984319636],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Throwing Knife\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Out of all the weapons, here\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"you are with throwing knives...\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"12 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:3,CustomModelData:2,knife:1b,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1981257387,-989183290,-2096079793,1620532841],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.7,Operation:0,UUID:[I;1109167874,831278788,-1580593872,799614255],Slot:\"mainhand\"}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Seismic Wave\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Make the ground tremble with this\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\"magic book! Things are about to get wavey\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"48 Damage\",\"color\":\"yellow\",\"italic\":false},{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}]','{\"text\":\" \",\"color\":\"dark_purple\",\"italic\":false}']},HideFlags:2,CustomModelData:1,seismicwave:1b,Enchantments:[{}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Chaos Ball\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"A rare unstable ball that explodes\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"violently on contact with any\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"surface or target. Now THAT is\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"awesome!\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"96 Area Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},CustomModelData:1,chaos_ball:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Electrical Tennis Ball\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"These seemingly normal looking\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"tennis balls are somehow infused\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"with a form of pure energy. Upon\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"collision they unleash an\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"immense amount of energy.\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"24 Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},CustomModelData:2,tennis_ball:1b}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Halogen Light Bulb\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Seems like it came from the\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"ceiling... Nice\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"6 Area Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},CustomModelData:3,halogen_bulb:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'[{\"text\":\"Health Potion \",\"italic\":false},{\"text\":\"+4❤\",\"color\":\"red\",\"italic\":false}]',Lore:['{}']},CustomPotionEffects:[{Id:6b,Amplifier:1b,Duration:1}],CustomPotionColor:16711680}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Heavy Shield\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Higher durability, but \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"slows you down\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"-10% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:236,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.10,Operation:1,UUID:[I;-1508565083,2022719506,-1334910041,-174530942],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:1,Pattern:\"bri\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Light Shield\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Lower durability, but \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"makes you slightly faster\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+5% Speed\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:286,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.05,Operation:1,UUID:[I;1230671454,-1139587407,-1554565650,1765401038],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:0,Pattern:\"mr\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Vitality Shield\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Lower durability, but \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"grants you extra health\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+3 Hearts\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:286,AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:6,Operation:0,UUID:[I;-465028737,1849442904,-1395421450,1865350910],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:14,Pattern:\"flo\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Brute Shield\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Lower durability, but \",\"color\":\"gray\",\"italic\":false}','{\"text\":\"grants you more damage\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" \"}','{\"text\":\"+3 Damage\",\"color\":\"yellow\",\"italic\":false}','{\"text\":\" \"}']},HideFlags:127,Damage:286,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1820789841,260459745,-1496045358,902348335],Slot:\"offhand\"}],BlockEntityTag:{Patterns:[{Color:15,Pattern:\"sku\"}]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 10,
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Lore:['{}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

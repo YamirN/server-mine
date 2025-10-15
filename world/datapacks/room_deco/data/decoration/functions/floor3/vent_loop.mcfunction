@@ -1,0 +1,3 @@
+particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0.5 0 0.025 5
+execute unless entity @e[team=vent_location,distance=..1] run summon magma_cube ~ ~-0.25 ~ {DeathLootTable:"nothing",NoGravity:1b,Silent:1b,Team:"vent_location",PersistenceRequired:1b,NoAI:1b,Health:40f,CustomName:'{"text":"vent_location"}',ActiveEffects:[{Id:14b,Amplifier:0b,Duration:199999980,ShowParticles:0b},{Id:20b,Amplifier:4b,Duration:199980,ShowParticles:0b},{Id:24b,Amplifier:0b,Duration:199980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:40}]}
+execute positioned ~ ~1 ~ if block ~ ~ ~ minecraft:stone_pressure_plate[powered=true] run function decoration:floor3/fume_leak_stop
